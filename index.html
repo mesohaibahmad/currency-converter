@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+    <h1>Currency Converter</h1>
+    <form action="" id="form">
+       <p>Select currency</p>
+       <div class="from">
+       <img src="https://flagsapi.com/US/flat/64.png" alt="">
+        <select class="form-field" id="currency" name="currency" >
+        </select>
+    </div>
+        
+        <input type="number" class="form-field" id="amount" min="1" placeholder="Add Amount">
+        <p id="text">Convert into</p>
+     <div class="convert"> 
+       <img src="https://flagsapi.com/PK/flat/64.png" alt=""> 
+       <select class="form-field" id="convert-into" name="currencyTo">
+        </select>
+    </div> 
+        <input type="number" class="form-field" id="result" min="1" placeholder="Result" readonly>
+        <button type="submit" class="form-field" id="check-btn">Check</button>
+    </form>
+   
+</main>
+<script src="Currecy Codes.js"></script>
+<script src="script.js"></script>
+<div id="check"></div>
+
+</body>
+</html>
